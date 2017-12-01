@@ -1,0 +1,640 @@
+/*
+* @Author: acer
+* @Date:   2017-08-24 14:12:10
+* @Last Modified by:   acer
+* @Last Modified time: 2017-08-31 13:41:57
+*/
+@import url('base.css');
+body{
+	/* height: 90rem; */
+	background: #f3f3f3;
+}
+header{
+	width: 100%;
+	height:0.87rem;
+	background:#fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.head-left{
+	width: 0.76rem;
+	height: 100%;
+	/* background: green; */
+	display: flex;
+	align-items: center;
+}
+.head-left img{
+	width: 0.4rem;
+	height: 0.4rem;
+	display: block;
+	margin-left: 0.35rem;
+}
+.head-center{
+    width: 1.09rem;
+    height: 0.36rem;
+    /* background: pink; */
+    font-size: 0.36rem;
+    color: #404040;
+    line-height: 0.36rem;
+}
+.head-right{
+	width: 0.74rem;
+	height: 100%;
+	/* background: yellow; */
+	display: flex;
+	align-items: center;
+}
+.head-right img{
+	width: 0.36rem;
+	height: 0.32rem;
+	display: block;
+	margin-right: 0.35rem;
+}
+#head{
+	width: 100%;
+	height:0.87rem;
+}
+/* 头部结束 */
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 3.92rem;
+	/* background: pink; */
+	position: relative;
+}
+.banner-pic{
+	width: 100%;
+	height: 3.92rem;
+	position: relative;
+}
+.banner-pic li a{
+	width: 100%;
+	height: 3.92rem;
+	display: block;
+}
+.banner-pic li a img{
+	width: 100%;
+	height: 3.92rem;
+	display: block;
+}
+.banner-pic li:last-child{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.banner-quan{
+	width: 1.07rem;
+	height: 0.07rem;
+	/* background: red; */
+	position: absolute;
+	right: 3.24rem;
+	bottom: 0.16rem;
+}
+.banner-quan li{
+	width: 0.07rem;
+	height: 0.07rem;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.8);
+	float: left;
+	margin-right: 0.2rem;
+}
+.banner-quan li:first-child{
+	width: 0.17rem;
+	height: 0.07rem;
+	border-radius: 50%;
+}
+.banner-quan li:last-child{
+	margin-right: 0rem;
+}
+/* banner结束 */
+/* 全场包邮开始 */
+.quan-box{
+	width: 100%;
+	height: 0.8rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 0.09rem;
+}
+.quan-box li{
+	width: 1.3rem;
+	height: 100%;
+	/* background: pink; */
+	display: block;
+}
+.quan-box li a{
+	width: 1.3rem;
+	height: 100%;
+	display: block;
+	/* margin-top:0.3rem; */
+}
+.quan-icon{
+	width: 0.14rem;
+	height: 0.14rem;
+	float: left;
+	margin-top: 0.3rem;
+}
+.quan-icon img{
+	width: 0.14rem;
+	height: 0.14rem;
+	display: block;
+}
+.quan-zi{
+	width: auto;
+	/* height: 0.22rem; */
+	display: block;
+	font-size: 0.18rem;
+    color: #828081;
+    /* line-height: 0.8rem; */
+    margin-top: 0.2rem;
+    float: right;
+}
+/* 全场包邮结束 */
+/* 女图开始 */
+.nv-box{
+	width:100%;
+	height: 2.69rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-around;
+}
+.nv-box li{
+	width: 1.44rem;
+	height: 100%;
+	/* background: yellow; */
+}
+.nv-box-pic{
+	width: 1.44rem;
+	height: 1.44rem;
+	display: block;
+	margin-top: 0.46rem;
+}
+.nv-box-pic img{
+	width: 1.44rem;
+	height: 1.44rem;
+	display: block;
+}
+.nv-box-zi{
+	height: 0.22rem;
+	display: block;
+	font-size: 0.22rem;
+    color: #323232;
+    line-height: 0.22rem;
+    margin-top: 0.26rem;
+    text-align: center;
+}
+/* 女图结束 */
+/* 限时秒抢开始 */
+.xianshi-box{
+	width: 100%;
+	height: 4.2rem;
+	background: #fff;
+	margin-top: 0.11rem;
+}
+.xianshi-top{
+	width: 7.1rem;
+	height: 0.8rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.xianshi-top1{
+     width:1.5rem;
+     height: 100%;
+     display: flex;
+     align-items: center;
+}
+.xianshi-top-pic{
+	width: 0.28rem;
+	height: 0.28rem;
+	display: block;
+	float: left;
+}
+.xianshi-top-pic img{
+	width: 0.28rem;
+	height: 0.28rem;
+	display: block;
+    /* margin-top: 0.2rem;  */
+}
+.xianshi-top1-zi{
+	width: 1.2rem;
+	height: 0.8rem;
+	font-size: 0.22rem;
+    color: #323232;
+    float: right;
+    line-height: 0.8rem;
+    /* padding-top: 0.25rem; */
+}
+.xianshi-top2-1{
+	font-size: 0.22rem;
+	color: #939393;
+}
+.xianshi-top2{
+	 width:auto; 
+     height: 100%;
+     display: flex;
+     align-items: center;
+}
+.xianshi-top2-zi{
+	font-size: 0.22rem;
+	color: #939393;
+	padding-right: 0.1rem;
+}
+.xianshi-top2-pic{
+	width: 0.12rem;
+	height: 0.22rem;
+	padding-top: 0.03rem;
+
+}
+.xianshi-top2-pic img{
+	width: 0.12rem;
+	height: 0.22rem;
+	display: block;
+	/* padding-top: 0.05rem; */
+}
+.xianshi-bottom{
+	width: 100%;
+	height: 3rem;
+	background: #fff;
+	margin: 0 auto;
+	display: block;
+}
+.xianshi-bottom img{
+	width: 7.1rem;
+	height: 3rem;
+	display: block;
+	margin: 0 auto;
+} 
+/* 限时秒抢结束 */
+/* 今日上新开始 */
+.jin-box{
+	width: 100%;
+	height: 4.57rem;
+	background: #fff;
+	margin-top: 0.11rem;
+}
+.jin-bottom{
+	width:100%;
+	height: 3.77rem;
+	background: #fff;
+}
+
+.jin-bottom-main{
+	width:100%;
+	height: 3.58rem;
+	/* background: pink; */
+	display: flex;
+	justify-content: space-around;
+}
+.jin-bottom-main li{
+	width: 2rem;
+	height: 100%;
+	/* background: yellow; */
+}
+.jin-bottom-main li a{
+	width: 2rem;
+	height: 3.01rem;
+	display: block;
+}
+.jin-bottom-main li a img{
+    width: 2rem;
+	height: 3.01rem;
+	display: block;
+}
+.jin-bottom-main li p{
+	 height: 100%;
+     font-size: 0.2rem;
+     color: #3c3c3c;
+     text-align: center; 
+     line-height: 0.56rem;
+}
+/* 今日上新结束 */
+/* 正在流行开始 */
+.zheng-box{
+	width: 100%;
+	height: 8.18rem;
+	background: #fff;
+	margin-top: 0.11rem;
+}
+.zheng-bottom{
+	width: 100%;
+	height: 1.88rem;
+	display: flex;
+	/* background: yellow; */
+	justify-content: space-around;
+    margin-bottom: 0.4rem;
+}
+.zheng-bottom li{
+	width: 1.44rem;
+	height: 1.88rem;
+	/* background: green; */
+}
+.zheng-bottom-pic{
+	width: 1.44rem;
+	height: 1.44rem;
+	display: block;
+}
+.zheng-bottom-pic img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 0.85rem;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 0.85rem;
+}
+.zheng-bottom-zi{
+	height: 0.22rem;
+	font-size: 0.22rem;
+	display: block;
+     color: #404040;
+     text-align: center; 
+     line-height: 0.56rem;
+}
+.zheng-yuan{
+	width: 1.45rem;
+	height: 0.28rem;
+	/* background: red; */
+	display: flex;
+	justify-content: space-between;
+	margin-left: 2.9rem;
+}
+.zheng-yuan li{
+	width: 0.11rem;
+	height: 0.11rem;
+	background: #666666;
+	border-radius: 50%;
+}
+.zheng-yuan li:first-child{
+    width: 0.59rem;
+    height: 0.28rem;
+    border-radius: 0.13rem;
+    background: #ea6f33;
+    font-size: 0.12rem;
+    color: #fff;
+    line-height: 0.28rem;
+    margin-top: -0.1rem;
+}
+/* 正在流行结束 */
+/* 好物搭配开始 */
+.hao-box{
+   width: 100%;
+   height: 7.9rem;
+   background: #fff;
+   margin-top: 0.11rem;
+}
+.hao-bottom{
+	width: 7.1rem;
+	height: 7.1rem;
+	display: block;
+	/* background: red; */
+	margin: 0 auto;
+}
+.hao-bottom-left{
+	width: 	4.72rem;
+	height: 7.1rem;
+	display: block;
+	float: 	left;
+}
+.hao-bottom-left img{
+	width: 	4.72rem;
+	height: 7.1rem;
+	display: block;
+}
+.hao-bottom-right{
+	width: 	2.33rem;
+	height: 7.1rem;
+	/* background:pink; */
+	float: 	right;
+	/* display:flex; */
+}
+.hao-bottom-right li{
+	width: 	2.33rem;
+	height: 2.33rem;
+	margin-bottom:0.05rem;
+	float: left;	
+}
+.hao-bottom-right li:last-child{
+	margin-bottom:0rem;
+}
+.hao-bottom-right li img{
+	width: 	2.33rem;
+	height: 2.33rem;
+	display:block;
+}
+/* 好物搭配开始 */
+/* 半身裙开始 */
+.ban-box{
+	width: 100%;
+	height:6rem;
+	background:#fff;
+    margin-top: 0.5rem;
+}
+.ban-top{
+	width:7.1rem;
+	height: 3.4rem;
+	/* background:red; */
+	margin: 0 auto;
+	display: block;
+}
+.ban-top img{
+    width:7.1rem;
+	height: 3.4rem;
+	display: block;
+}
+.ban-bottom{
+	width: 	7.1rem;
+	height:2.47rem;
+	/* background: yellow; */
+	margin: 0 auto;
+	display:flex;
+	justify-content: space-between;
+}
+.ban-bottom li{
+	width:1.4rem;
+	height:100%;
+	/* background: red; */
+}
+.ban-bottom li a{
+	width: 1.4rem;
+	height: 2.1rem;
+	display: block;
+}
+.ban-bottom li a img{
+    width: 1.4rem;
+	height: 2.1rem;
+	display: block;
+	margin-top: 0.05rem;
+}
+.ban-bottom li p{
+	 height: 100%;
+     font-size: 0.2rem;
+     color: #3c3c3c;
+     text-align: center; 
+     line-height: 0.56rem;
+}
+.box .hao-bottom{
+	margin-top: 0.4rem;
+	background: #fff;
+}
+.box-xia{
+	width: 100%;
+	overflow: hidden;
+	background: #fff;
+}
+/* 半身裙结束 */
+/*按钮开始*/
+.anniu-box{
+	width:100%;
+	height: 1.44rem;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.anniu{
+	width: 6.63rem;
+	height: 0.58rem;
+	display: block;
+	background: #f2f7fb;
+	border-radius: 0.42rem;
+}
+.anniu p{
+	font-size:0.22rem;
+	color:#5f6563;
+	text-align: center;
+	line-height: 0.58rem;
+}
+/*按钮结束*/
+/* 流行单品开始 */
+.liu-box{
+	width: 100%;
+	height:13.91rem;
+	background: #fff;
+	margin-top: 0.11rem;
+}
+.liu-bottom1{
+	width: 	100%;
+	height: 6.57rem;
+	/*background: pink;*/
+	display: flex;
+	justify-content:space-around;
+}
+.liu-bottom1 li{
+	width: 	3.44rem;
+	height: 6.5rem;
+	/*background: green;*/
+	display:block;
+}
+.liu-bottom1 li a{
+	width: 	3.44rem;
+	height:5.17rem;
+	display:block;
+}
+.liu-bottom1 li a img{
+	width: 	3.44rem;
+	height:5.17rem;
+	display:block;
+}
+.liu-bottom-zi{
+	width: 3.44rem;
+	height:0.86rem;	
+	/*background: green;*/
+	display:flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+.liu-bottom-zi li{
+	width: auto;
+	height:0.29rem;
+	background: #f2f8f4;
+	font-size: 0.2rem;
+    color: #a4a8b1;
+    line-height: 0.29rem;
+    padding-left:0.09rem;
+    padding-right:0.09rem;
+    margin-right: 0.08rem;
+    margin-top: 0.14rem;
+}
+.liu-bottom-zi li:first-child{
+	width: auto;
+	height:0.29rem;
+	background: #fce4a8;
+	color:#685b38;
+}
+.liu-bottom1 .liu-pirce{
+	width: 3.44rem;
+	height: 0.54rem;
+	display: block;
+	/*background: red;*/
+}
+.liu-pirce p,.liu-pirce-right p{
+	height: 0.22rem;
+	font-size: 0.2rem;
+    color: #484848;
+    line-height: 0.54rem;
+    float:left; 
+}
+.liu-pirce-right{
+	height: 100%;
+	width:0.86rem;
+	/*background: pink;*/
+	float: right;
+	margin-right: 0.13rem;
+}
+.liu-pirce-right .liu-pirce-right1{
+	color:#a9a9a9;
+}
+/* 流行单品结束 */
+/*菜单栏开始*/
+.caidan-box{
+	width: 100%;
+	height: 0.98rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-around;
+	position:fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+}
+.caidan-box li{
+	width: 0.9rem;
+	height: 100%;
+	/* background: green; */
+}
+.caidan-shouye{
+	width:0.6rem;
+	height: 0.44rem;
+	display: block;
+	margin-top: 0.15rem;
+	margin-left: 0.23rem;
+}
+.shouye-img{
+	width: 0.44rem;
+	height: 0.44rem;
+	display: block;
+}
+.shouye-zi,.fenlei-zi{
+	width: 0.9rem;
+	height: 0.4rem;
+	display: block;
+	font-size: 0.22rem;
+    color: #f72969;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.caidan-box .fenlei-zi{
+	color: #9d9d9d;
+}
+#caidan{
+	width: 100%;
+	height: 0.87rem;
+}
+/*菜单栏结束*/

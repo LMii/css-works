@@ -1,0 +1,350 @@
+/*
+* @Author: acer
+* @Date:   2017-08-26 11:25:38
+* @Last Modified by:   acer
+* @Last Modified time: 2017-08-27 19:03:43
+*/
+@import url('base.css');
+body{
+	height: auto;
+	background: #f3f3f3;
+}
+header{
+	width: 100%;
+	height:0.88rem;
+	background:#fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #cbccce;
+	/* margin-bottom: 0.1rem; */
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.head-left{
+	width: 0.76rem;
+	height: 100%;
+	/* background: green; */
+	display: flex;
+	align-items: center;
+}
+.head-left img{
+	width: 0.4rem;
+	height: 0.4rem;
+	display: block;
+	margin-left: 0.35rem;
+}
+.head-center{
+    width: 0.8rem;
+    height: 0.36rem;
+    /* background: pink; */
+    font-size: 0.36rem;
+    color: #404040;
+    line-height: 0.36rem;
+}
+.head-right{
+	width: 0.74rem;
+	height: 100%;
+	/* background: yellow; */
+	display: flex;
+	align-items: center;
+}
+.head-right img{
+	width: 0.36rem;
+	height: 0.32rem;
+	display: block;
+	margin-right: 0.35rem;
+}
+#head{
+	width: 100%;
+	height:0.88rem;
+}
+/* 全部分类开始 */
+.quan-box{
+	width: 100%;
+	height: 11.82rem;
+	background: pink;
+	margin-top: 0.1rem;
+}
+.quan-top{
+	width: 100%;
+	height: 1rem;
+	background: #fff;
+	display: block;
+	font-size: 0.32rem;
+	color: #000;
+	padding-left: 0.23rem;
+	padding-top: 0.34rem;
+}
+.quan-bottom{
+	width: 100%;
+	height: 10.82rem;
+	background: #fff;
+	border-top: 1px solid #f4f4f4;
+	display: flex;
+	flex-wrap: wrap;
+}
+.quan-bottom li{
+	width: 1.86rem;
+	height: 2.69rem;
+	/* background: red; */
+	border-right: 1px solid #f4f4f4;
+	border-bottom: 1px solid #f4f4f4;
+}
+.quan-bottom li:nth-child(4n){
+	border-right: 0;
+}
+.quan-bottom li:nth-child(12)~li{
+	border-bottom: 0;    
+}
+.quan-pic{
+	width:1.86rem ;
+	height:2.14rem ;
+	display: block;
+	display: flex;
+	align-items: center;
+}
+.quan-img{
+	width: 1.8rem;
+	height: 100%;
+	display: block;
+}
+.quan-zi{
+	width: 100%;
+	height: 0.24rem;
+	/* background: red; */
+	display: block;
+	font-size: 0.24rem;
+	color: #686868;
+	text-align: center;
+	line-height: 0.24rem;
+}
+/* 全部分类结束 */
+/* 热门穿搭开始 */
+.re-box{
+	width: 100%;
+	height: 3.1rem;
+	background: #fff;
+	margin-top: 0.1rem;
+}
+.re-top{
+	width: 100%;
+	height: 1rem;
+	background: #fff;
+	display: block;
+}
+.re-top1{
+	font-size: 0.24rem;
+	color: #000;
+	line-height: 1rem;
+	margin-left: 0.23rem;
+	float: left;
+}
+.re-top2{
+	width: 0.89rem;
+	height: 100%;
+	float: right;
+	margin-right: 0.23rem;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	/* background: red; */
+}
+.re-top2 div{
+	font-size: 0.22rem;
+	color: #77787a;
+	line-height: 0.24rem;
+	line-height: 1rem;
+}
+.re-top2 .re-top2-2{
+	width: 0.12rem;
+	height: 0.22rem;
+	display: block;
+}
+.re-top2 .re-top2-2 img{
+	width: 0.12rem;
+	height: 0.22rem;
+	display: block;
+	margin-left: 0.1rem;
+	margin-top: 0.03rem;
+}
+.re-bottom-pic1{
+	width: 2.8rem;
+	height: 1.7rem;
+	float: left;
+	margin-left: 0.2rem;
+}
+.re-bottom-pic1 img{
+	width: 2.8rem;
+	height: 1.7rem;
+	float: left;
+}
+.re-bottom-pic2{
+	width: 1.3rem;
+	height: 1.7rem;
+	float: right;
+}
+.re-bottom-pic2 img{
+	width: 1.3rem;
+	height: 1.7rem;
+	float: right;
+}
+/* 热门穿搭结束 */
+/* 流行开始 */
+.liuxing-box{
+	width: 100%;
+	height: 14.65rem;
+	background: #fff;
+	margin-top: 0.1rem;
+}
+.liuxing-top{
+	width:7.1rem;
+	height: 1.31rem;
+	background: #fff;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.liuxing-top li{
+	width: 1.36rem;
+	height:0.62rem;
+	/* background: pink; */
+
+}
+.liuxing-top-zi1,.liuxing-top-zi2{
+	width: 0.6rem;
+	height: 0.62rem;
+	display: block;
+	/* background: yellow; */
+	margin-left: 0.4rem;
+	font-size: 0.26rem;
+	text-align: center;
+	color: #000;
+	line-height: 0.27rem;
+	border-bottom: 3px solid #343434;
+}
+.liuxing-top li .liuxing-top-zi2{
+	border-bottom: 0;
+}
+.liu-bottom1{
+	width: 	100%;
+	height: 6.57rem;
+	/*background: pink;*/
+	display: flex;
+	justify-content:space-around;
+}
+.liu-bottom1 li{
+	width: 	3.44rem;
+	height: 6.5rem;
+	/*background: green;*/
+	display:block;
+}
+.liu-bottom1 li a{
+	width: 	3.44rem;
+	height:5.17rem;
+	display:block;
+}
+.liu-bottom1 li a img{
+	width: 	3.44rem;
+	height:5.17rem;
+	display:block;
+}
+.liu-bottom-zi{
+	width: 3.44rem;
+	height:0.86rem;	
+	/*background: green;*/
+	display:flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+.liu-bottom-zi li{
+	width: auto;
+	height:0.29rem;
+	background: #f2f8f4;
+	font-size: 0.2rem;
+    color: #a4a8b1;
+    line-height: 0.29rem;
+    padding-left:0.09rem;
+    padding-right:0.09rem;
+    margin-right: 0.08rem;
+    margin-top: 0.14rem;
+}
+.liu-bottom-zi li:first-child{
+	width: auto;
+	height:0.29rem;
+	background: #fce4a8;
+	color:#685b38;
+}
+.liu-bottom1 .liu-pirce{
+	width: 3.44rem;
+	height: 0.54rem;
+	display: block;
+	/*background: red;*/
+}
+.liu-pirce p,.liu-pirce-right p{
+	height: 0.22rem;
+	font-size: 0.2rem;
+    color: #484848;
+    line-height: 0.54rem;
+    float:left; 
+}
+.liu-pirce-right{
+	height: 100%;
+	width:0.86rem;
+	/*background: pink;*/
+	float: right;
+	margin-right: 0.13rem;
+}
+.liu-pirce-right .liu-pirce-right1{
+	color:#a9a9a9;
+}
+/* 流行结束 */
+/*菜单栏开始*/
+.caidan-box{
+	width: 100%;
+	height: 0.98rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-around;
+	position:fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+}
+.caidan-box li{
+	width: 0.9rem;
+	height: 100%;
+	/* background: green; */
+}
+.caidan-shouye{
+	width:0.6rem;
+	height: 0.44rem;
+	display: block;
+	margin-top: 0.15rem;
+	margin-left: 0.23rem;
+}
+.shouye-img{
+	width: 0.44rem;
+	height: 0.44rem;
+	display: block;
+}
+.shouye-zi,.fenlei-zi{
+	width: 0.9rem;
+	height: 0.4rem;
+	display: block;
+	font-size: 0.22rem;
+    color: #f72969;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.caidan-box .fenlei-zi{
+	color: #9d9d9d;
+}
+#caidan{
+	width: 100%;
+	height: 0.87rem;
+}
+/*菜单栏结束*/

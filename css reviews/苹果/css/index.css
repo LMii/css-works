@@ -1,0 +1,466 @@
+/*
+* @Author: acer
+* @Date:   2017-08-28 10:17:38
+* @Last Modified by:   acer
+* @Last Modified time: 2017-08-31 10:10:30
+*/
+@import url('base.css');
+body{
+	background: #F2F2F2;
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 40px;
+	background: #444444;
+}
+.head-main{
+	height: 100%;
+	background: #444444;
+	margin: 0 auto;
+}
+.head-right{
+	font-size: 12px;
+	color: #A8A8AA;
+	line-height: 40px;
+	float: right;
+}
+
+/* 头部结束 */
+/* 导航开始 */
+nav{
+	width: 100%;
+	height: 44px;
+	background:#323232; 
+}
+.nav-main{
+	/* width: 976px; */
+	height: 100%;
+	background: #323232;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.nav-main li{
+	width: auto;
+	height: 100%;
+}
+.nav-main li a{
+	font-size: 14px;
+	color: #fff;
+	display: block;
+	line-height: 44px;
+	text-align: center;
+}
+.nav-main li:nth-child(7) a{
+	font-size: 12px;
+}
+/* 导航结束 */
+/* banner开始 */
+.banner-box{
+	width: 100%;
+	height: 542px;
+	background: pink;
+	position: relative;
+}
+.banner-pic li a{
+	width: 100%;
+	height: 542px;
+	display: block;
+	background: url('../img/banner.jpg') no-repeat center;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.banner-zi{
+	font-size: 30px;
+	color: #fff;
+	margin:35px auto;
+	display: block;
+	/* width: 80%; */
+	text-align: center;
+	margin-bottom: 0;
+}
+.banner-zi1{
+	font-size: 40px;
+	color: #fff;
+	margin:15px auto;
+	display: block;
+	/* width: 80%; */
+	text-align: center;
+}
+/* banner结束 */
+/* 内容开始 */
+.tu-main{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.tu-main li{
+	background: pink;
+	border: 2px solid #fff; 
+	border-left: 0; 
+	float: left; 
+}
+.tu-main li a{
+	width: 100%;
+	height:272px;
+	display: block;
+	overflow: hidden; 
+}
+.tu1-zi{
+	font-size: 22px;
+	color: #fff;
+	text-align: center;
+	margin: 20px auto;
+	margin-bottom: 0; 
+}
+.tu1-zi1{
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	margin: 5px auto;
+}
+.tu2-zi{
+	width: 80%;
+	font-size: 18px;
+	color: #000;
+	text-align: center;
+	margin: 20px auto;
+	margin-bottom: 0;
+}
+.tu2-zi1{
+	width: 80%;
+	font-size: 12px;
+	color: #333333;
+	text-align: center;
+	margin: 8px auto;
+}
+.tu3-zi{
+	width: 80%;
+	font-size: 18px;
+	color: #111111;
+	text-align: center;
+	margin: 20px auto;
+}
+.tu4-zi{
+	width: 80%;
+	font-size: 18px;
+	background-image: -webkit-linear-gradient(80deg,#9489FF,#D8ADDC,#F16FE5,#7D9FFF);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	text-align: center;
+	margin: 20px auto;
+	margin-bottom: 0; 
+}
+.tu4-zi1{
+	font-size: 16px;
+	width: 80%;
+	color: #fff;
+	text-align: center;
+	margin: 5px auto;
+}
+/* 内容结束 */
+/* 说明开始 */
+.shuo-box{
+	height: auto;
+}
+.shuo-main{
+	margin: 0 auto;
+	border-bottom: 1px solid #d6d6d6;
+	padding-top: 14px;
+	padding-bottom:19px;
+}
+.shuo-main div{
+	width: auto;
+	font-size: 12px;
+	color: #888888;
+	line-height: 21px
+}
+/* 说明结束 */
+/* 底部开始 */
+.di-box{
+	height: auto;
+	
+}
+.di-main{
+	height: auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.di-main1{
+	/* width: 707px; */
+	height: 275px;
+    margin: 0 auto;
+}
+.di-main1 li{
+	height: 39px;
+	border-bottom: 1px solid #D6D6D6;
+}
+.di-main1 p{
+	font-size: 12px;
+	line-height: 39px;
+	float: left;
+	color: #000;
+}
+.di-main1-zi1{
+	float: left;
+}
+.di-main1 .di-main1-zi2{
+	float: right;
+}
+.di-1{
+	width: 20%;
+	float: left;
+}
+.di-1 li{
+	font-size: 12px;
+	color: #333333;
+	line-height: 21px;	
+}
+.di-1 li a{
+	color: #888888;
+} 
+.di-1 li a:hover{
+	text-decoration: underline;
+}
+.di-zi1{
+	margin: 0 auto;
+	border-bottom: 1px solid #d6d6d6;
+	overflow:hidden;
+}
+.di-zi1 div{
+	font-size: 12px;
+	color: #888888;
+	line-height: 30px;
+	float: left;
+}
+.di-zi1 a{
+	float: left;
+	font-size: 12px;
+	color: #0070c9;
+	line-height: 30px;
+}
+.di-zi1 a:hover{
+	text-decoration: underline;
+}
+.di-zi2{
+	margin: 0 auto;
+	overflow:hidden;
+	font-size: 12px;
+	color: #888888;
+	/* line-height: 30px; */
+}
+.di-zi2 div{
+	float: left;
+	margin-right: 50px;
+	line-height: 30px;
+}
+.di-zi2-2{
+	float: left;
+	margin-top: 6px;
+	margin-right: 10px;
+	/* line-height: 30px; */
+}
+.di-zi2-2 li{
+	float: left;	
+	height: 17px;
+}
+.di-zi2-2 li a{
+   padding-right: 13px;
+   padding-left: 13px;
+   line-height: 17px;
+   border-right: 1px solid #d6d6d6;
+   font-size: 12px;
+   color:#888888;
+   line-height: 17px;
+}
+.di-zi2-3{
+	float: left;
+}
+.di-zi2-2 li:first-child a{
+	padding-left: 0;
+}
+.di-zi2-2 li:last-child a{
+	border-right: 0;
+}
+.di-zi2-2 li a:hover{
+	text-decoration: underline;
+}
+
+.di-zi2 .di-zi2-3 img{
+	margin-top: 8px;
+}
+.zhong{
+	font-size: 12px;
+	color: #888888;
+	float: right;
+}
+.zhong:hover{
+	text-decoration: underline;
+}
+.di-zi3{
+	font-size: 12px;
+	color: #888888;
+    padding-bottom: 23px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+/* 底部结束 */
+/* 大于1024 */
+@media screen and (min-width: 1024px){
+	.head-main{
+		width: 976px;
+	}
+	.nav-main{
+		width: 976px;
+	}
+	.fir-nav{
+		display: block;
+	}
+	.sec-nav{
+		display: none;
+	}
+	.tu-main li{
+		width: 25%;
+	}
+	.tu-main li a{
+		background: url('../img/hey_siri_large.jpg'),no-repeat,center;
+		background-size: 100% 100%;
+	}
+	.tu-main li:nth-child(2) a{
+		background: url('../img/bts_beats_ipad_large1.jpg'),no-repeat,center;
+		background-size: 100% 100%;
+	}
+	.tu-main li:nth-child(3) a{
+		background: url('../img/macbookair_large.jpg'),no-repeat,center;
+		background-size: 100% 100%;
+	}
+	.tu-main li:nth-child(4) a{
+		background: url('../img/how_to_shoot_on_iphone_large.png'),no-repeat,center;
+		background-size: 100% 100%;
+	}
+	.shuo-main{
+		width: 976px;
+	}
+
+	.di-main{
+		width: 976px;
+	}
+	.di-zi1{
+		width: 976px;
+	}
+	.di-zi2{
+		width: 976px;
+	}
+	.di-zi3{
+		width: 976px;
+	}
+	.di-main{
+		display: block;
+	}
+	.di-main1{
+		display: none;
+	}
+	/* .di-zi2 .di-zi2-3{float: right;} */	
+}
+
+/* 小于1024px */
+@media screen and (max-width: 1024px){
+	.head-main{
+		padding: 0 24px;
+	}
+	.nav-main{
+		padding: 0 24px;
+	}
+	.fir-nav{
+		display: block;
+	}
+	.sec-nav{
+		display: none;
+	}
+	.shuo-box{
+		padding:0 24px;
+	}
+	.di-box{
+		padding-left: 24px; 
+		padding-right: 24px;
+	}
+	.di-main{
+		display: block;
+	}
+	.di-main1{
+		display: none;
+	}
+	.tu-main li:nth-child(2)~li{border-top:0;}
+}
+/* 小于1024 大于768 */
+@media screen and (max-width: 1024px) and (min-width: 768px){
+	.tu-main li{
+		width: 50%;
+	}
+    .tu-main li a{
+		background: url('../img/hey_siri_medium.jpg'),no-repeat,center;
+		background-size: 100% 100%;
+	}
+	.tu-main li:nth-child(2) a{
+		background: url('../img/bts_beats_ipad_medium.jpg'),no-repeat,center;
+		background-size: 100% 100%;
+	}
+	.tu-main li:nth-child(3) a{
+		background: url('../img/macbookair_medium.jpg'),no-repeat,center;
+		background-size: 100% 100%;
+	}
+	.tu-main li:nth-child(4) a{
+		background: url('../img/how_to_shoot_on_iphone_large.png'),no-repeat,center;
+		background-size: 100% 100%;
+	}
+	.di-zi1{border-bottom: 0;}
+}
+/* 小于768px */
+@media screen and (max-width: 768px){
+	.fir-nav{
+		display: none;
+	}
+	.sec-nav{
+		display: block;
+	}
+	.tu-main li{
+		width: 100%;
+	}
+	.tu-main li a{
+		background: url('../img/hey_siri_small.jpg'),no-repeat,center;
+		background-size: 100% 100%;
+	}
+	.tu-main li:nth-child(2) a{
+		background: url('../img/bts_beats_ipad_small.jpg'),no-repeat,center;
+		background-size: 100% 100%;
+	}
+	.tu-main li:nth-child(3) a{
+		background: url('../img/macbookair_small.jpg'),no-repeat,center;
+		background-size: 100% 100%;
+	}
+	.tu-main li:nth-child(4) a{
+		background: url('../img/how_to_shoot_on_iphone_large.png'),no-repeat,center;
+		background-size: 100% 100%;
+	}
+	.shuo-box{
+		padding: 0 24px;
+	}
+	.di-box{
+		padding-left: 24px; 
+	}
+    .di-main{
+		display: none;
+	}
+	.di-main1{
+		display: block;
+	}
+	/* .di-zi2-3{width: 100%;float: left;} */
+   .di-zi1{border-bottom: 0;}
+   .tu-main li:nth-child(1)~li{border-top:0;}
+}

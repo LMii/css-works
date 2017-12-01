@@ -1,0 +1,216 @@
+/*
+* @Author: acer
+* @Date:   2017-08-27 16:04:33
+* @Last Modified by:   acer
+* @Last Modified time: 2017-08-27 19:54:39
+*/
+@import url('base.css');
+body{
+	background: #f3f3f3;
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height:0.87rem;
+	background:#fff;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.head-left{
+	width: 0.76rem;
+	height: 100%;
+	/* background: green; */
+	display: flex;
+	align-items: center;
+}
+.head-left img{
+	width: 0.2rem;
+	height: 0.36rem;
+	display: block;
+	margin-left: 0.35rem;
+}
+.head-center{
+    width: auto;
+    height: 0.36rem;
+    /* background: pink; */
+    font-size: 0.36rem;
+    color: #404040;
+    line-height: 0.36rem;
+    margin-left: 2.38rem;
+}
+#head{
+	width: 100%;
+	height:0.87rem;
+}
+/* 头部结束 */
+/* 待付款开始 */
+.dai-box{
+	width: 100%;
+	height: 0.78rem;
+	background: #fff;
+	border-top: 1px solid #d5d5d5;
+}
+.dai-main{
+	width: 7.08rem;
+	height: 100%;
+	/* background: pink; */
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.dai-main li{
+	width: 1.25rem;
+	height: 100%;
+    /* background: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dai-main li:nth-child(2){
+	border-bottom: 3px solid #040404;
+}
+.dai-main li a{
+	font-size: 0.24rem;
+	color: #646464;
+}
+.dai-main li:nth-child(2) a{
+	font-size: 0.3rem;
+	color: #161616;
+}
+/* 待付款结束 */
+/* 付款栏开始 */
+.fukuan-box{
+	width: 100%;
+	height: 4.81rem;
+	background: #fff;
+	margin-top: 0.1rem;
+}
+.fukuan-main{
+	width: 7.08rem;
+	height: 100%;
+	/* background: pink; */
+	margin: 0 auto;
+}
+.fukuan-top{
+	width: 100%;
+	height: 0.77rem;
+	border-bottom: 1px solid #f4f4f4;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.fukuan-top p{
+	font-size: 0.26rem;
+    color: #424242;
+}
+.fukuan-center{
+	width: 100%;
+	height: 2.13rem;
+	border-bottom: 1px solid #f4f4f4;
+	display: flex;
+	align-items: center;
+}
+.fukuan-center-pic{
+	width: 1.15rem;
+	height: 1.74rem;
+	display: block;
+}
+.fukuan-center-pic img{
+	width: 1.15rem;
+	height: 1.74rem;
+	display: block;
+}
+.fukuan-center-zi{
+	width: 5.47rem;
+	height: 1.74rem;
+	margin-left: 0.2rem;
+	/* background: yellow; */
+}
+.fukuan-center-zi1{
+	width: 100%;
+	height: 0.68rem;
+	/* background: red; */
+	display: flex;
+	justify-content: space-between;
+}
+.fukuan-center-zi1-1{
+	width: 3.85rem;
+	height: 0.68rem;
+	font-size: 0.24rem;
+	color: #323232;
+	display: block;
+}
+.fukuan-center-zi1-2{
+   width: 0.85rem;
+	height: 0.68rem;
+	font-size: 0.24rem;
+	color: #323232;
+	display: block;
+}
+.fukuan-center-zi2{
+	width: 100%;
+	height: 1.18rem;
+	/* background: yellow; */
+	overflow: hidden;
+}
+.fukuan-center-zi2-1{
+	font-size: 0.22rem;
+	color: #b1b1b1;
+	margin-top: 0.1rem;
+}
+.fukuan-center-zi2-2{
+	font-size: 0.22rem;
+	color: #b1b1b1;
+	float: right;
+	margin-top: 0.3rem;
+}
+.fukuan-bottom1{
+	width: 100%;
+	height: 0.94rem;
+	border-bottom: 1px solid #f9f9f9;
+}
+.fukuan-bottom1-right{
+	width: 3.24rem;
+	height:100%;
+	float: right;
+	/* background: yellow; */
+	display: flex;
+	align-items: center;
+}
+.fukuan-bottom1-right-1{
+	font-size: 0.22rem;
+	color: #8f8f8f;
+	line-height: 0.22rem;
+}
+.fukuan-bottom1-right-2{
+	font-size: 0.22rem;
+	color: #ff679a;
+}
+.fukuan-bottom2{
+	width: 100%;
+	height: 0.94rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.fukuan-bottom2-zi1{
+	font-size: 0.24rem;
+	color: #ff679a;
+	margin-left: 0.2rem;
+}
+.fukuan-bottom2-zi2{
+	width: 1.54rem;
+	height: 0.58rem;
+	background: #ff679a;
+	border-radius: 0.35rem;
+	display: block;
+	font-size: 0.22rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.58rem;
+}
+/* 付款栏结束 */

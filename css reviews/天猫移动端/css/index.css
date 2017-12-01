@@ -1,0 +1,496 @@
+/*
+* @Author: acer
+* @Date:   2017-08-23 09:52:18
+* @Last Modified by:   acer
+* @Last Modified time: 2017-08-31 13:32:00
+*/
+@import url('base.css');
+body{
+	height: auto;
+	/* overflow: hidden; */
+	background: #f0f0f0;
+	/* overflow: scroll; */
+}
+/* 搜索开始 */
+.sou-box{
+	width: 100%;
+	height: 0.88rem;
+	background: #f32d2d;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+#sousuo{
+	width: 100%;
+	height: 0.88rem;
+}
+.sou-left{
+	width: 0.41rem;
+	height: 0.34rem;
+	display: block;
+	float: left;
+	margin-top:0.25rem;
+	margin-left: 0.4rem; 
+}
+.sou-img1{
+	width: 0.41rem;
+	height: 0.34rem;
+	display: block;
+}
+.sou-center{
+	width: 3.98rem;
+	height: 0.66rem;
+	margin-left: 0.42rem;
+    margin-top: 0.1rem;
+	border-radius: 0.1rem;
+	background: #fff;
+	float: left;
+}
+input{
+	width: 3.08rem;
+	height: 0.66rem;
+	/* margin-top: 0.1rem; */
+	border: none;
+	padding-left: 0.2rem;
+	float: left;
+	font-size: 0.12px;
+	border-radius: 0.1rem;
+
+}
+input:focus{
+	outline: none;
+}
+.sou-tu{
+	width:0.68rem;
+	height: 100%;
+	float: left;
+	background: #fff;
+	border-radius: 0.1rem;
+}
+.sou-img{
+	width: 0.33rem;
+	height: 0.33rem;
+	display: block;
+	margin-top: 0.16rem;
+	margin-left:0.25rem;
+}
+.sou-box p{
+	font-size: 0.22rem;
+	color: #fff;
+	line-height: 0.88rem;
+	float: left;
+	margin-left: 0.37rem;
+}
+/* 搜索结束 */
+/* banner开始 */
+.banner-box{
+	width: 100%;
+	height: 2.22rem;
+   background: yellow;
+   position: relative;
+}
+.banner-pic{
+	width: 100%;
+	height: 2.22rem;
+	position: relative;
+}
+.banner-pic li a{
+	width: 100%;
+	height: 2.22rem;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.banner-img{
+	width: 100%;
+	height: 2.22rem;
+}
+.banner-quan{
+	width: 1.5rem;
+	height: 0.14rem;
+	/* background: red; */
+	position: absolute;
+	bottom: 0.16rem;
+	right: 2.5rem;
+}
+.banner-quan li{
+	width: 0.14rem;
+	height: 0.14rem;
+	border-radius: 50%;
+	background: #7f7e80;
+	float: left;
+	margin-right: 0.04rem;
+}
+.banner-quan li:nth-child(8){
+	margin-right: 0rem;
+}
+.banner-quan li:nth-child(1){
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background: #fff;
+	border: 0.01rem solid #7f7e80;
+	float: left;
+	margin-right: 0.04rem;
+}
+.banner-quan li:nth-child(1)~li:hover{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background: #fff;
+	border: 0.01rem solid #7f7e80;
+	float: left;
+	margin-right: 0.04rem;
+}
+/* banner结束 */
+/* 导航开始 */
+.nav{
+	width: 100%;
+	height: 2.66rem;
+	background: #fff;
+}
+.nav-top{
+	width: 100%;
+	height: 50%;
+	/* background: yellow; */
+}
+.nav-top li{
+	width: 20%;
+	height: 100%;
+	float: left;
+	/* margin-top: 0.08px; */
+	/* background: red; */
+}
+/* .nav-top li:nth-child(5)~li{
+	margin-top: 0.1rem;
+} */
+.nav-top li a{
+	width: 0.72rem;
+	height: 0.72rem;
+	display: block;
+	/* background: green; */
+	margin: 0 auto;
+	margin-top: 0.08rem;
+	/* margin-bottom: 0.05rem; */
+	border-radius: 0.2rem;
+}
+
+.nav-top li p{
+	font-size: 0.2rem;
+	color: #000;
+	margin: 0 auto;
+	width: 48px;
+}
+.nav-img{
+	width: 0.72rem;
+	height: 0.72rem;
+	display: block;
+}
+/* 导航结束 */
+/* 潮流酷玩开始 */
+.chaoliu-box{
+	width: 100%;
+	height: 3.22rem;
+}
+.chaoliu-box-top .pinpai-box-top-1,.chaoliu-box-top .pinpai-box-top-2{
+	background: #becfec;
+}
+.shouji{
+	width: 0.24rem;
+	height: 0.3rem;
+	float: left;
+}
+.chaoliu-box-top .chaoliu{
+	color: #4a9fe7;
+}
+.chao-box-bottom{
+	width: 100%;
+	height: 2.6rem;
+	background: #fff;
+}
+.chao-box-bottom li{
+	width: 33.3333333%;
+	height: 100%;
+	float: left;
+}
+.chaoliu-box-bottom-tu{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.chaoliu-img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/* 潮流酷玩结束 */
+/* 必抢开始 */
+.qiang-box{
+	width: 100%;
+	height: 5.68rem;
+	/* background: red; */
+}
+.qiang-box-top .pinpai-box-top-1,.qiang-box-top .pinpai-box-top-2{
+	background: #f6b7b7;
+}
+.qiang-box-top .biqiang{
+	color: #f6b7b7;
+}
+.qiang-box-bottom{
+	width: 100%;
+    height: 5.09rem;
+    background: #fff;
+    overflow: hidden;
+}
+.qiang-box-bottom li{
+	width: 25%;
+	height: 2.55rem;
+	box-sizing: border-box;
+	background: #fff;
+	border-bottom: 1px solid #f0f0f0;
+	float: left;
+}
+.qiang-box-bottom li:nth-child(4){
+	border-left: 1px solid #f0f0f0;
+}
+.qiang-box-bottom li:nth-child(8){
+	border-left: 1px solid #f0f0f0;
+}
+.qiang-box-bottom li:nth-child(4)~li{
+	border-bottom:0;
+	/* margin-top: 0.16rem; */
+}
+.qiang-box-bottom p{
+	font-size: 0.24rem;
+	margin-left: 0.29rem;
+	padding-top: 0.16rem;
+	box-sizing: border-box;
+}
+.qiang-img{
+	width: 1.4rem;
+	height: 1.4rem;
+	display: block;
+}
+.qiang-box-bottom .pice1{
+	font-size: 0.12rem;
+	color: #ff2e2e;
+	width: 0.5rem;
+	float: left;
+	display: block;
+	margin-left: 0.22rem;
+    padding-top: 0;
+}
+.qiang-box-bottom s{
+	font-size: 0.12rem;
+	color: #9b9b9b;
+	float: left;
+	margin-left: 0.05rem;
+}
+/* 必抢结束 */
+/* 品牌特卖开始 */
+.pinpai-box{
+	width: 100%;
+	height: 2.5rem;
+	/* background: pink; */
+}
+.pinpai-box-top,.chaoliu-box-top,.qiang-box-top{
+	width: 100%;
+	height: 0.62rem;
+	padding-left: 1.58rem;
+	box-sizing: border-box;
+	/* margin-left: 1.58rem; */
+	overflow: hidden;
+}
+.pinpai-box-top-1,.pinpai-box-top-2{
+	width: 0.68rem;
+	height: 0.02rem;
+	margin-top:0.32rem;
+	background: #ffcc99;
+	float: left;
+}
+.pinpai-box-top .pinpai-box-top-2,.chaoliu-box-top .pinpai-box-top-2{
+	margin-left: 0.2rem;
+}
+.pinpai-xing{
+	width: 0.3rem;
+	height: 0.3rem;
+	float: left;
+	margin-top: 0.17rem;
+	margin-left: 0.2rem;
+}
+.xing{
+	width: 0.3rem;
+	height: 0.3rem;
+	display: block;
+}
+.pinpai-box-top p,.chaoliu,.biqiqng{
+	width: 1rem;
+    height: 0.16rem;
+    display: block;
+	font-size: 0.24rem;
+	color: #ff8000;
+	float: left;
+    margin-left: 0.2rem;
+    line-height: 0.62rem;
+}
+.pinpai-box-bottom{
+	width: 100%;
+	height: 1.88rem;
+	/* background: #fff; */
+}
+.pinpai-box-bottom li{
+	width: 50%;
+	height: 100%;
+	float: left;
+	box-sizing: border-box;
+}
+.pinpai-box-bottom li:first-child{
+	border-right: 2px solid #ccc;
+}
+.pinpai-box-bottom-tu{
+	width: 3.16rem;
+	height: 1.88rem;
+	display: block;
+}
+.pinpai-img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/* 品牌特卖结束 */
+/* 猜你喜欢开始 */
+.cai-box{
+	width: 100%;
+	height: 10.03rem;
+	/* background: red; */
+}
+.cai-box-top{
+	width: 100%;
+	height: 0.88rem;
+	padding-left: 2.23rem;
+	box-sizing: border-box;
+	/* margin-left: 2.23rem; */
+}
+.cai-box-top1,.cai-box-top2{
+	width: 0.28rem;
+	height: 0.02rem;
+	float: left;
+	background: #999999;
+	margin-top: 0.45rem;
+	/* margin-left: 2.23rem; */
+}
+.cai-box-top .cai-box-top2{
+    margin-left: 0.09rem;
+}
+.cai-box-top p{
+	font-size: 0.24rem;
+	color: #999999;
+	float: left;
+    margin-left: 0.09rem;
+    line-height: 0.88rem;
+}
+.cai-box-bottom li{
+	width: 3.16rem;
+	height: 4.55rem;
+	float: left;
+	background: #fff;
+	margin-right: 0.07rem;
+	margin-bottom: 0.05rem;
+}
+.cai-box-bottom li:nth-child(2n){
+	margin-right: 0;
+}
+.cai-box-bottom li:nth-child(1){
+	margin-bottom: 0rem;
+}
+.cai-box-bottom li:nth-child(3){
+	margin-bottom: 0rem;
+}
+.cai-box-bottom li a{
+	width: 3.18rem;
+	height: 3.17rem;
+	display: block;
+}
+.cai-img{
+	width: 3.18rem;
+	height: 3.17rem;
+	display: block;
+}
+.cai-zi1{
+	width: 2.78rem;
+	height: 0.55rem;
+	font-size: 0.26rem;
+	color:#666666;
+	margin: 0 auto;
+	margin-top: 0.16rem;
+}
+.cai-zi2{
+	width: 0.91rem;
+	height: 0.26rem;
+	font-size: 0.26rem;
+	color:#dd2727;
+	margin-left: 0.18rem;
+	margin-top: 0.18rem;
+}
+/* 猜你喜欢结束 */
+/* 底部开始 */
+.di-pic{
+	width: 0.6rem;
+	height: 0.43rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.24rem;
+}
+.di-img{
+	width: 0.6rem;
+	height: 0.43rem;
+	display: block;
+}
+.di-hengxian{
+	width: 100%;
+	height: 0.04rem;
+	background: #000;
+	margin-top: 0.18rem;
+}
+.di-zi{
+	width: 100%;
+	height:0.24rem;
+	margin: 0 auto;
+	margin-top: 0.48rem;
+	/* background: #000; */
+}
+.dadi{
+	width: 100%;
+	height: 2.02rem;
+	background: #fff;
+	overflow: hidden;
+}
+.di-zi li{
+	/* width: 1.16rem; */
+    height: 0.22rem;
+	padding-left:0.35rem;
+	padding-right: 0.35rem;
+	float: left;
+	box-sizing: border-box;
+	font-size: 0.22rem;
+	color: #999999;
+	line-height: 0.22rem;
+	border-right: 1px solid #999;
+}
+.di-zi li:last-child{
+	border-right: 0;
+}
+.di-zi1{
+	margin: 0 auto;
+	margin-top: 0.63rem;
+	width: 100%;
+	height: 0.22rem;
+	font-size: 0.22rem;
+	color: #999999;
+	line-height: 0.22rem;
+	text-align: center;
+}
+/* 底部结束 */

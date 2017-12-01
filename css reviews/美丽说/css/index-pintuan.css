@@ -1,0 +1,248 @@
+/*
+* @Author: acer
+* @Date:   2017-08-27 17:29:21
+* @Last Modified by:   acer
+* @Last Modified time: 2017-08-27 18:41:39
+*/
+@import url('base.css');
+body{
+	height: auto;
+	background: #f3f3f3;
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height:0.87rem;
+	background:#fff;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.head-left{
+	width: 0.76rem;
+	height: 100%;
+	/* background: green; */
+	display: flex;
+	align-items: center;
+}
+.head-left img{
+	width: 0.2rem;
+	height: 0.36rem;
+	display: block;
+	margin-left: 0.35rem;
+}
+.head-left1{
+	width: 0.38rem;
+	height: 0.38rem;
+	display: block;
+}
+.head-left1 img{
+	width: 0.38rem;
+	height: 0.38rem;
+	display: block;
+	margin-left: 0.48rem;
+}
+.head-center{
+    width: auto;
+    height: 0.36rem;
+    /* background: pink; */
+    font-size: 0.36rem;
+    color: #404040;
+    line-height: 0.36rem;
+    margin-left: 2rem;
+}
+#head{
+	width: 100%;
+	height:0.87rem;
+}
+/* 头部结束 */
+/* 成团开始 */
+.cheng-box{
+	width: 100%;
+	height: 0.9rem;
+	border-top: 1px solid #cdcdcd;
+	background: #fff;
+}
+.cheng-main{
+	width: 7.08rem;
+	height: 100%;
+	margin:  0 auto;
+	/* background: pink; */
+	display: flex;
+	justify-content: space-between;
+}
+.cheng-main li{
+	width: 0.9rem;
+	height: 100%;
+    /* background: yellow; */
+    display: flex;
+    align-items: center;
+}
+.cheng-main li:last-child{
+	border-bottom: 3px solid #303032;
+}
+.cheng-main li a{
+	width: auto;
+	font-size: 0.24rem;
+	color: #9e9e9e;
+}
+.cheng-main li:last-child a{
+	color: #0c0c0c;
+}
+/* 成团结束 */
+/* 拼团推荐开始 */
+.pin-box{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	margin-top: 0.2rem;
+}
+.pin-main{
+	width: 7.08rem;
+	height: 100%;
+	/* background: pink; */
+	margin: 0 auto;
+}
+.pin-top{
+	width: 100%;
+	height: 0.8rem;
+	font-size: 0.28rem;
+	color: #5c5c5c;
+	line-height: 0.8rem;
+}
+.pin-bottom{
+	width: 100%;
+	height:auto;
+}
+.pin-bottom li{
+	width: 100%;
+	height: 2.57rem;
+	background: #fff;
+	border-bottom: 1px solid #f6f6f6;
+	display: flex;
+	align-items: center;
+}
+.pin-pic{
+	width: 2rem;
+	height: 2rem;
+	display: block;
+}
+.pin-pic img{
+	width: 2rem;
+	height: 2rem;
+	display: block;
+}
+.pin-zi{
+	width: 4.85rem;
+	height: 2rem;
+	display: block;
+	/* background: yellow; */
+	margin-left: 0.2rem;
+}
+.pin-zi1{
+	width: 100%;
+	height: 0.72rem;
+	font-size: 0.26rem;
+	color: #000;
+}
+.pin-zi2{
+	width: 100%;
+	height: 0.34rem;
+	margin-top: 0.3rem;
+	display: flex;
+}
+.pin-zi2-1{
+	font-size: 0.24rem;
+	color: #e76893;
+}
+.pin-zi2-2{
+	font-size: 0.22rem;
+	color: #6b6b6b;
+	margin-left: 0.1rem;
+}
+.pin-zi3{
+	width: 100%;
+	height: 0.6rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.pin-zi3 p{
+	font-size: 0.22rem;
+	color: #6b6b6b;
+}
+.pin-zi3 div{
+	width: 1.8rem;
+	height: 0.6rem;
+	background: #ff6599;
+	border-radius: 0.38rem;
+	font-size: 0.22rem;
+	color: #fff;
+	line-height: 0.6rem;
+	text-align: center;
+}
+.pin-anniu-box{
+	width: 100%;
+	height: 1.18rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.pin-anniu-box a{
+	width: 4.5rem;
+	height: 0.6rem;
+	background: #ff679a;
+	border-radius: 0.26rem;
+	font-size: 0.22rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.6rem;
+}
+/* 拼团推荐结束 */
+/*菜单栏开始*/
+.caidan-box{
+	width: 100%;
+	height: 0.98rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-around;
+	position:fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+}
+.caidan-box li{
+	width: auto;
+	height: 100%;
+	/* background: green; */
+}
+.caidan-shouye{
+	width:0.6rem;
+	height: 0.44rem;
+	display: block;
+	margin-top: 0.15rem;
+	margin-left: 0.23rem;
+}
+.shouye-img{
+	width: 0.49rem;
+	height: 0.51rem;
+	display: block;
+    margin-top: 0.1rem;
+}
+.shouye-zi,.fenlei-zi{
+	width: auto;
+	height: 0.4rem;
+	display: block;
+	font-size: 0.22rem;
+    color: #9d9d9d;
+    text-align: center;
+    line-height: 0.4rem;
+}
+#caidan{
+	width: 100%;
+	height: 0.87rem;
+}
+/*菜单栏结束*/

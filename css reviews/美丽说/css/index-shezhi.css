@@ -1,0 +1,104 @@
+/*
+* @Author: acer
+* @Date:   2017-08-27 15:32:42
+* @Last Modified by:   acer
+* @Last Modified time: 2017-08-27 16:02:07
+*/
+@import url('base.css');
+body{
+	background: #f3f3f3;
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height:0.87rem;
+	background:#fff;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.head-left{
+	width: 0.76rem;
+	height: 100%;
+	/* background: green; */
+	display: flex;
+	align-items: center;
+}
+.head-left img{
+	width: 0.2rem;
+	height: 0.36rem;
+	display: block;
+	margin-left: 0.35rem;
+}
+.head-center{
+    width: auto;
+    height: 0.36rem;
+    /* background: pink; */
+    font-size: 0.36rem;
+    color: #404040;
+    line-height: 0.36rem;
+    margin-left: 2.38rem;
+}
+#head{
+	width: 100%;
+	height:0.87rem;
+}
+/* 头部结束 */
+/* 个人信息开始 */
+.geshe-box{
+	width: 100%;
+	height: 2.88rem;
+	background: #fff;
+	margin-top: 0.2rem;
+}
+.geshe-main{
+	width: 7.08rem;
+	height: 100%;
+	/* background: pink; */
+	margin:  0 auto;
+}
+.geshe-main li{
+	width: 100%;
+	height: 0.95rem;
+	border-bottom: 1px solid #e2e2e2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.geshe-main li:last-child{
+	border-bottom:0;
+}
+.geren-zi1{
+	font-size: 0.24rem;
+	color: #6c6c6c;
+}
+.geren-pic{
+	width: 0.14rem;
+	height: 0.25rem;
+	display: block;
+}
+.geren-pic img{
+	width: 0.14rem;
+	height: 0.25rem;
+	display: block;
+}
+.geren-zi2{
+	font-size: 0.22rem;
+	color: #292929;
+}
+/* 个人信息结束 */
+/* 退出账号开始 */
+.tui-box{
+	width: 100%;
+	height: 0.84rem;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 0.12rem;
+	font-size: 0.24rem;
+	color: #d95181;
+}

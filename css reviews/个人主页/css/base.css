@@ -1,0 +1,17 @@
+/*
+* @Author: acer
+* @Date:   2017-08-17 15:59:21
+* @Last Modified by:   acer
+* @Last Modified time: 2017-08-24 17:33:16
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "微软雅黑";
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
